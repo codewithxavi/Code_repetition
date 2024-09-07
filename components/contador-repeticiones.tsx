@@ -131,21 +131,21 @@ export function ContadorRepeticiones() {
               />
             )}
           </div>
-          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2 justify-center">
             <Button
               onClick={searchAndHighlight}
-              className="flex-1 flex items-center justify-center"
+              className="w-48 flex items-center justify-center p-2 text-sm"
             >
               buscar y contar
-              <SearchIcon className="ml-2" />
+              <SearchIcon className="ml-1" />
             </Button>
             <Button
               onClick={clearAll}
               variant="outline"
-              className="flex-1 flex items-center justify-center"
+              className="w-48 flex items-center justify-center p-2 text-sm"
             >
               limpiar todo
-              <DeleteIcon className="ml-2" />
+              <DeleteIcon className="ml-1" />
             </Button>
           </div>
           {highlightedText && (
