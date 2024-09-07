@@ -88,7 +88,7 @@ export function ContadorRepeticiones() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4">
       <Card className="w-full max-w-4xl dark:bg-gray-800">
         <CardHeader>
-          <CardTitle className="text-4xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-800 -tracking-normal">
+          <CardTitle className="text-4xl text-center text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-rose-800 -tracking-normal font-light">
             Contador de Repeticiones
           </CardTitle>
           <CardDescription className="text-center text-lg text-gray-600 dark:text-gray-400">
