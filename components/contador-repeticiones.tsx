@@ -1,5 +1,8 @@
 "use client";
 
+import SearchIcon from "@mui/icons-material/Search";
+import DeleteIcon from "@mui/icons-material/Delete";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -129,11 +132,20 @@ export function ContadorRepeticiones() {
             )}
           </div>
           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
-            <Button onClick={searchAndHighlight} className="flex-1">
-              Buscar y Contar
+            <Button
+              onClick={searchAndHighlight}
+              className="flex-1 flex items-center justify-center"
+            >
+              buscar y contar
+              <SearchIcon className="ml-2" />
             </Button>
-            <Button onClick={clearAll} variant="outline" className="flex-1">
-              Limpiar Todo
+            <Button
+              onClick={clearAll}
+              variant="outline"
+              className="flex-1 flex items-center justify-center"
+            >
+              limpiar todo
+              <DeleteIcon className="ml-2" />
             </Button>
           </div>
           {highlightedText && (
