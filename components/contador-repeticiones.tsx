@@ -182,9 +182,9 @@ export function ContadorRepeticiones() {
               transition={{ duration: 0.5 }}
             >
               <h3 className="text-lg font-semibold mb-2 text-red-500">
-                Palabras No Encontradas:
+                Palabras no encontradas:
               </h3>
-              <ul className="list-none pl-0 space-y-2">
+              <ul className="pl-4 space-y-2 list-disc">
                 {notFoundWords.map((word) => (
                   <li key={word} className="text-lg text-red-500">
                     {word} no se ha encontrado
