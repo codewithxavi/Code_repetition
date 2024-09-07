@@ -196,7 +196,8 @@ export function ContadorRepeticiones() {
         </CardContent>
         <CardFooter className="text-center mt-4 flex flex-col items-center">
           <p className="text-lg text-gray-500 dark:text-gray-400">
-            Designed by <span className="text-pink-500">❤️</span> @codewithxavi
+            Designed with <span className="text-pink-500">❤️</span> by
+            @codewithxavi
           </p>
           <div className="flex justify-center space-x-4 mt-2">
             <a
